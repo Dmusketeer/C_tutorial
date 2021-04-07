@@ -1,0 +1,17 @@
+/*Q1: Write down a program that will take two integers as input 
+and will print the results of their addition, subtraction, 
+multiplication and division*/
+
+#include <stdio.h>
+
+int main()
+{
+    float num1,num2;
+    printf("Enter Two interger Numbers : ");
+    scanf("%f %f",&num1,&num2);
+    printf("Summation is %f\n",num1+num2);
+    printf("Subtraction is %f\n",num1-num2);
+    printf("multiplication is %f\n",num1*num2);
+    printf("Division is %f\n",num1/num2);
+    return 0;
+}
