@@ -1,0 +1,14 @@
+for loop syntax
+//  for loop is used where we know the exact number of iteration
+// for(intialize;condition;increment or decrement){
+//     statements;
+// }
+
+// #include<stdio.h>
+// int main(){
+
+//     for(int i=0;i<10;i++){
+//         printf("Good night\n");
+//     }
+//     return 0;
+// }
