@@ -1,0 +1,31 @@
+// Q2: Converting height : Feet to Inch
+
+#include <stdio.h>
+
+int main()
+{
+    float height,inch;
+    printf("Enter The Height into feet : ");
+    scanf("%f",&height);
+    inch=height*12;
+    printf("height : %f inch",inch);
+    return 0;
+    
+}
+
+// Q3: Converting height : Feet to Inch
+
+
+#include <stdio.h>
+
+int main()
+{
+    float height,feet;
+    printf("Enter The Height into inch : ");
+    scanf("%f",&height);
+    feet =height/12;
+    printf("height : %f feet",feet);
+    return 0;
+    
+}
+
