@@ -1,0 +1,20 @@
+// while loop
+// while loop is used where we don't know the exact number of iteration
+
+// syntax of while loop
+// int intialize;
+// while(condition){
+    
+//     // statements
+//     increments or decrements
+// }
+
+#include<stdio.h>
+int main(){
+    int i = 1;
+    while(i<11){
+        printf("%d.Good Morning\n",i);
+        i++;
+    }
+    
+}
